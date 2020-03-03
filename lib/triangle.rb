@@ -14,7 +14,7 @@ class Triangle
       else
         if @side_a == @side_b && @side_a == @side_c
         :equilateral
-        elsif @side_1 == @side_2 || @side_2 == @side_3 || @side_1 == @side_3
+        elsif @side_a == @side_b || @side_b == @side_v || @side_a == @side_c
         :isosceles
         elsif @side_a != @side_b && @side_b != @side_c && @side_a != @side_c
         :scalene
